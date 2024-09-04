@@ -20,7 +20,7 @@ import {
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-export default function page() {
+export default function Page() {
   const [editId, setEditId] = useState<any>(0);
   const [buttonName, setButtonName] = useState("Add");
   const [editing, setEditing] = useState(false);
